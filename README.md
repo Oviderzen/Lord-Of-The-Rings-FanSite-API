@@ -27,20 +27,10 @@ LoTR Fan Site built with Python and Flask using the API: https://the-one-api.dev
 
 <p style="text-align:center;">Random Character.</p
   
-![victory](https://i.postimg.cc/7ZJxDQgQ/character.png)
-<br>
-  
-<p style="text-align:center;">Character Details.</p
-  
-![defeat](https://i.postimg.cc/NFGscs41/character-details.png)
-<br>
+![char](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/07d25718-79f3-40ca-a5c0-f7ad34147734)
 
+<br>
+  
 <p style="text-align:center;">Random Quote.</p
   
-![victory](https://i.postimg.cc/653WbQTK/quote.png)
-<br>
-  
-<p style="text-align:center;">Quote Details.</p
-  
-![defeat](https://i.postimg.cc/RhPMCks2/quote-details.png)
-<br>
+![quote_details](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/aada21de-0b9f-4b88-92e9-1958f49f3bfd)
