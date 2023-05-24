@@ -33,4 +33,4 @@ LoTR Fan Site built with Python and Flask using the API: https://the-one-api.dev
   
 <p style="text-align:center;">Random Quote.</p
   
-![quote_details](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/aada21de-0b9f-4b88-92e9-1958f49f3bfd)
+![quote](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/0a2309c9-f71e-4751-b179-6b3968856ea8)
