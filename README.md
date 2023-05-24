@@ -2,12 +2,12 @@
 LoTR Fan Site built with Python and Flask using the API: https://the-one-api.dev/.
 
 <p style="text-align:center;">Home Page.</p>
-
 ![home](https://i.postimg.cc/Cx9xqVhg/Home.png)
 <br>
 
 <p style="text-align:center;">Books Page.</p>
-![books](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/fa560b35-85aa-4df6-ad7d-49ff345ffb63)
+![books](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/e7ae28a6-7965-47df-807d-7ab74d1d2199)
+
  
 <p style="text-align:center;">Movies Page.</p
 ![movies](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/86563dac-12ef-4f31-b827-68e30c983fb9)
