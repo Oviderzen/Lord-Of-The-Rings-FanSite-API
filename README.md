@@ -6,16 +6,20 @@ LoTR Fan Site built with Python and Flask using the API: https://the-one-api.dev
 
 <br>
 <p style="text-align:center;">Books Page.</p>
-![books](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/e7ae28a6-7965-47df-807d-7ab74d1d2199)
+![books](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/6a80f1e3-902e-470a-b397-55f037899e72)
+
 
 <br>
 <p style="text-align:center;">Movies Page.</p
-![movies](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/86563dac-12ef-4f31-b827-68e30c983fb9)
+![movies](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/29046745-39fc-4ccb-a00a-9a792c13d195)
+
 
 <br>
 <p style="text-align:center;">Random Character.</p
-![char](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/07d25718-79f3-40ca-a5c0-f7ad34147734)
+![char](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/ddc3deef-46a4-4279-bac4-52425efb778b)
+
 
 <br>
 <p style="text-align:center;">Random Quote.</p
-![quote](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/0a2309c9-f71e-4751-b179-6b3968856ea8)
+![quote](https://github.com/Oviderzen/Lord-Of-The-Rings-FanSite-API/assets/130290407/a616496c-721a-4321-817a-36f701534d71)
+
