@@ -1,0 +1,38 @@
+{% include 'header.html' %}
+
+{% block content %}
+
+<section id="hero" class="d-flex flex-column justify-content-center">
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <div class="dropdown">
+            {% for movie in all_movies: %}
+              <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
+                      data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                      style="margin-bottom: 30px; margin-top: 20px; font-family: 'RingBearer';">
+                {{ movie.name }}
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Runtime in minutes: {{ movie.runtimeInMinutes }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Budget in Millions: ${{ movie.budgetInMillions }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Box Office Revenue in Millions: ${{ movie.boxOfficeRevenueInMillions }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Academy Award Nominations: {{ movie.academyAwardNominations }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Academy Award Wins: {{ movie.academyAwardWins }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Rotten Tomatoes Score: {{ movie.rottenTomatoesScore }}</a>
+              </div>
+            {% endfor %}
+            </div>
+          </div>
+      </div>
+  </div>
+
+</section><!-- End Hero -->
+
+{% endblock %}
+
+</body>
+
+{% include 'footer.html' %}
+
+</html>

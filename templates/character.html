@@ -1,0 +1,38 @@
+{% include 'header.html' %}
+
+{% block content%}
+
+<section id="hero" class="d-flex flex-column justify-content-center">
+  <div class="container">
+    <h1 class="heading" style="font-family: 'RingBearer'">A random character from the LoTR Universe</h1>
+    <p class="description"></p>
+    <div class="card" >
+      <div class="front" style="background-image: url(../static/images/ring.jpg) ;">
+          <p class="large" style="font-family: 'RingBearer';">{{ choice.name }}</p>
+      </div>
+      <div class="back">
+        <div>
+      <div class="title" style="font-family: 'RingBearer';">Name and Race: {{ choice.name }}<span class="release_date" style="font-family: 'RingBearer';">({{ choice.race }})</span></div>
+          <div class="rating">
+              <label style="font-family: 'RingBearer';">Height: {{ choice.height }}</label>
+            <i class="fas fa-star star"></i>
+          </div>
+            <p class="review" style="font-family: 'RingBearer';">Gender: "{{ choice.gender }}"</p>
+            <p class="review" style="font-family: 'RingBearer';">Date of Birth: "{{ choice.birth }}"</p>
+            <p class="review" style="font-family: 'RingBearer';">Spouse: "{{ choice.spouse }}"</p>
+            <p class="review" style="font-family: 'RingBearer';">Date of Death: "{{ choice.death }}"</p>
+            <p class="review" style="font-family: 'RingBearer';">Realm: "{{ choice.realm }}"</p>
+            <p class="review" style="font-family: 'RingBearer';">Hair: "{{ choice.hair }}"</p>
+            <p class="review" style="font-family: 'RingBearer';"><a href="{{ choice.wikiUrl }}">Wiki Link</p></a>
+        </div>
+      </div>
+    </div>
+                  <a href="{{ url_for('characters') }}" role="button" class="btn btn-danger btn-lg" style="font-family: 'RingBearer';">View All Characters</a>
+  </div>
+</section><!-- End Hero -->
+
+{% endblock %}
+
+{% include 'footer.html' %}
+
+</html>

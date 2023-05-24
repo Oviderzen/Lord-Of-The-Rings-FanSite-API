@@ -1,0 +1,53 @@
+{% include 'header.html' %}
+
+{% block content%}
+
+<section id="hero" class="d-flex flex-column justify-content-center" style="height: 100%; width:100%;">
+  <div class="container" style="text-align: left; max-width: 1948px;">
+        <div class="col-xl-8", style="width: 100%;">
+          <div class="dropdown">
+            {% for character in all_characters: %}
+              <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
+                      data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                      style="margin-bottom: 30px; margin-top: 20px; font-family: 'RingBearer';">
+                {{ character.name }}
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Race: {{ character.race }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Gender: {{ character.gender }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Spouse: {{ character.spouse }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Height: {{ character.height }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Birth {{ character.birth }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Death: {{ character.death }}</a>
+                <a class="dropdown-item" style="font-family: 'RingBearer';">Realm: {{ character.realm }}</a>
+                <a class="dropdown-item" href="{{ character.wikiUrl }}" style="font-family: 'RingBearer';">Wiki URL</a>
+              </div>
+            {% endfor %}
+            </div>
+      </div>
+  </div>
+
+</section><!-- End Hero -->
+
+
+{% endblock %}
+
+</body>
+
+{% include 'footer.html' %}
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
